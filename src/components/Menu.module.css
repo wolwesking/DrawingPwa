@@ -1,0 +1,92 @@
+.Main{
+    position: absolute;
+    top: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.Selection{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 0.8rem;
+    gap: 1rem;
+}
+
+
+.Pen > img {
+    border: 10px solid #caf0f8;
+    border-radius: 1rem;
+    width: 2rem;
+    background-color: #caf0f8;
+}
+
+.PenSelected > img {
+    border: 10px solid white;
+    border-radius: 1rem;
+    width: 2rem;
+    background-color: white;
+}
+
+
+.Ereaser > img {
+    border: 10px solid #caf0f8;
+    border-radius: 1rem;
+    width: 2rem;
+    background-color: #caf0f8;
+}
+
+.EreaserSelected > img {
+    border: 10px solid white;
+    border-radius: 1rem;
+    width: 2rem;
+    background-color: white;
+}
+
+
+.EreaseAll > img {
+    border: 10px solid #caf0f8;
+    border-radius: 1rem;
+    width: 2rem;
+    background-color: #caf0f8;
+}
+
+.EreaseAllSelected > img {
+    border: 10px solid white;
+    border-radius: 1rem;
+    width: 2rem;
+    background-color: white;
+}
+
+/* Specs place */
+
+.SpecsOpen {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 210px;
+    flex-direction: column;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.SpecsClose {
+    display: none;
+}
+
+.Slider {
+    margin: 0;
+}
+
+.Color{
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px solid rgba(0, 0, 0, 0);
+    height: 50px;
+}
